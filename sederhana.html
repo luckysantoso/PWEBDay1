@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Sederhana</title>
+</head>
+<body>
+    <header>
+        <h1>JENIS - JENIS TAGNAME PADA HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang saya</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Tentang Saya</h2>
+        <img src="foto_lucky.png">
+        <p>Saya adalah seorang mahasiswa Teknik Infomatika ITS 2022</p>
+    </section>
+    
+    <article style="border: 2px solid black;">
+        <h3>Artikel 1</h3>
+        <p>Ini adalah artikel pertama.</p>
+    </article>
+    
+    <article style="border: 2px solid black;">
+        <h3>Artikel 2</h3>
+        <p>Ini adalah artikel kedua.</p>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "abbr"</h3>
+        <p>Tag "abbr" mendefinisikan singkatan atau akronim<br>
+        Contoh : <abbr title="Informatika">IF</abbr></p>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "address"</h3>
+        <p>Tag "address" mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.<br>
+        Contoh : </p>       
+        <address>
+            Lucky Santoso <br>
+            Teknik Informatika <br>
+            Keputih, Sukolilo, Surabaya <br>
+            luckysantoso@gmail.com<br>
+        </address>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "bdi"</h3>
+        <p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+        <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+        </ul>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "bdo"</h3>
+        <p>Tag "bdo" digunakan untuk menimpa arah teks saat ini.<br>
+        Contoh : </p>
+        <p><bdo dir="ltr">This paragraph will go right-to-left.</bdo></p>  
+        <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "asize"</h3>
+        <p>Tag "aside" mendefinisikan beberapa konten selain dari konten yang ditempatkan di dalamnya.<br>
+        Contoh : <br>
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+        <aside>
+            <h4>Epcot Center</h4>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "audio"</h3>
+        <p>Tag "audio" digunakan untuk menyematkan konten suara dalam dokumen, seperti musik atau aliran audio lainnya.</p>
+        <p>Contoh : </p>
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "bold" </h3>
+        <p>Tag "b" menentukan teks tebal tanpa kepentingan tambahan.</p>
+        <p>Contoh : </p>
+        <p>This is normal text - <b>and this is bold text</b>.</p>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "blockquote"</h3>
+        <p>Tag "blockquote" menentukan bagian yang dikutip dari sumber lain.</p>
+        <p>Contoh : </p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            Succes is not Final; Failure is not Fatal;
+            It is the courage to continue that counts
+        </blockquote>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "button"</h3>
+        <p>Tag "button" mendefinisikan tombol yang dapat diklik.</p>
+        <p>Contoh : </p>
+        <button type="button">Click Here!</button>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "caption" dan "table"</h3>
+        <p>Tag "caption" mendefinisikan keterangan tabel.</p>
+        <p>Tag <tabel> mendefinisikan tabel HTML.</p>
+        <p>Contoh : </p>
+        <table>
+            <caption>Monthly savings</caption>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$50</td>
+            </tr>
+          </table>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "code"</h3>
+        <p>Tag <code> digunakan untuk mendefinisikan sebuah kode komputer. Konten di dalamnya ditampilkan dalam font monospace default browser.</p>
+        <p>Contoh : </p>
+        <p>The HTML <code>button</code> tag defines a clickable button.</p>
+        <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Pengunaan tagname "col"</h3>
+        <p>Tag <col> menentukan properti kolom untuk setiap kolom dalam elemen "colgroup".</p>
+        <p>Contoh : </p>
+        <table>
+            <colgroup>
+              <col style="background-color:green">
+              <col style="background-color:lightsalmon">
+            </colgroup>
+            <tr>
+              <th>ISBN</th>
+              <th>Title</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>3476896</td>
+              <td>My first HTML</td>
+              <td>$53</td>
+            </tr>
+            <tr>
+              <td>5869207</td>
+              <td>My first CSS</td>
+              <td>$49</td>
+            </tr>
+          </table>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaaan tagname "data"</h3>
+        <p>Contoh : </p>
+        <ul>
+            <li><data value="21053">Cherry Tomato</data></li>
+            <li><data value="21054">Beef Tomato</data></li>
+            <li><data value="21055">Snack Tomato</data></li>
+          </ul>
+    </article >
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaan tagname "datalist"</h3>
+        <p>Tag "datalist" menentukan daftar opsi yang telah ditentukan sebelumnya untuk elemen "input".</p>
+        <p>Contoh : </p>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+</datalist>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaan tagname "dd" </h3>
+        <p>Tag "dd" digunakan untuk mendeskripsikan istilah/nama dalam daftar deskripsi.</p>
+        <p>Contoh :</p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
+    </article>
+
+    <article style="border: 2px solid black;">
+        <h3>Penggunaan tagname "del" dan "ins"</h3>
+        <p>Tag <del> mendefinisikan teks yang telah dihapus dari dokumen. Browser biasanya akan membuat garis melalui teks yang telah dihapus.</p>
+        <p>Contoh : </p>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    </article>
+
+    
+
+
+    <hr>
+    <footer>
+        <p>Hak Cipta © 2023 Contoh HTML</p>
+    </footer>
+</body>
+</html>
